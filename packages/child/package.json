@@ -1,0 +1,42 @@
+{
+  "name": "child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve build -p 3012",
+    "dev": "NODE_ENV=development webpack serve",
+    "build": "webpack-cli --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@types/react": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^1.3.4",
+    "react-refresh": "^0.13.0",
+    "sass": "^1.52.2",
+    "sass-loader": "^10.1.1",
+    "serve": "^13.0.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "@types/react-dom": "^17.0.3",
+    "get-module-style": "^1.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modifier": "^4.2.8"
+  }
+}
